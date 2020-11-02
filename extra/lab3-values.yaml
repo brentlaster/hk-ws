@@ -23,6 +23,5 @@ service:
   frontendPortName: "mysql"
   externalPort: 3306
   internalPort: 3306
-roar-db:
-  stage: PROD
+
 
