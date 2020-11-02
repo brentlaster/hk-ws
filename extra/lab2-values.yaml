@@ -4,7 +4,7 @@
 nameOverride: mysql
 replicaCount: 1
 image:
-  repository: localhost:5000/roar-db
+  repository: bclaster/roar-db-image
   tag: v1
   pullPolicy: Always
 deployment:
