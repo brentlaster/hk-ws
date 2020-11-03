@@ -6,7 +6,7 @@ resources:
 
 # Change the image name and version
 images:
-- name: localhost:5000/roar-db
+- name: bclaser/roar-db-image
   newName: bclaster/roar-db
   newTag: test
 
