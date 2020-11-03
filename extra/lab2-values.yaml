@@ -1,12 +1,11 @@
 # Default values for roar-db-chart.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-nameOverride: mysql
-replicaCount: 1
 image:
   repository: bclaster/roar-db-image
   tag: v1
-  pullPolicy: Always
+replicaCount: 1
+nameOverride: mysql
 deployment:
   ports:
     name: mysql
